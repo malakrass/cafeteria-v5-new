@@ -1,0 +1,13 @@
+PHASE 5 UI FILES:
+
+1. client/src/pages/ManagerDashboard.tsx
+2. client/src/pages/WaiterDashboard.tsx
+3. client/src/pages/ChefDashboard.tsx
+4. client/src/pages/ReportingDashboard.tsx
+5. client/src/App.tsx
+6. server/routers/recharges.ts
+7. server/routers/staff.ts
+8. server/routers.ts
+9. client/src/lib/dashboardUtils.ts
+10. client/src/components/DashboardMetricCard.tsx
+11. PHASE5_COMPLETION_SUMMARY.md

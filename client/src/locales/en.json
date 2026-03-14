@@ -1,0 +1,18 @@
+{
+  "welcome_message": "Welcome to Cafeteria V2!",
+  "button_submit": "Submit",
+  "dashboard_title": "Manager Dashboard",
+  "recharge_request_pending": "Recharge request pending",
+  "recharge_request_approved": "Recharge request approved",
+  "recharge_request_rejected": "Recharge request rejected",
+  "insufficient_points": "Insufficient points balance",
+  "order_closed": "Order closed",
+  "order_total_mismatch": "Order total mismatch",
+  "login_blocked": "Login Blocked",
+  "login_allowed": "Login Allowed",
+  "free_operation_active": "Free operation period active",
+  "free_operation_ends_today": "Free operation period ends today!",
+  "free_operation_ends_tomorrow": "Free operation period ends tomorrow!",
+  "free_operation_ends_in_days": "Free operation period ends in {days} days.",
+  "free_operation_ended": "Free operation period has ended. Normal charges apply."
+}
