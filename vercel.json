@@ -1,19 +1,17 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "server/_core/index.ts"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "dist/client/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "dist/client/index.html"
-    }
-  ],
+  "framework": "vite",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist/client",
   "installCommand": "pnpm install",
-  "buildCommand": "pnpm build"
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "server/_core/index.ts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
